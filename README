@@ -1,0 +1,9 @@
+SecurityServer
+
+Creates authorization certificates for client applications - basically "permission to run" license files. This server was created at a company that wanted to replace hardware dongles with a single server. This software was written and designed to run on Windows 2000.
+
+Some of the useful things you may find in this project:
+* How to write an NT service
+* A useful "system" design pattern which abstracts the design of server software to have systems and subsystems.
+* A read/write lock using MFC/Windows primitives. Probably needs some work.
+

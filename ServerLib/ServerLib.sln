@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLib", "ServerLib.vcproj", "{0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcproj", "{FADDBF0B-4A36-4A21-9C85-766385875144}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{FADDBF0B-4A36-4A21-9C85-766385875144}.0 = {0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}.Debug.ActiveCfg = Debug|Win32
+		{0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}.Debug.Build.0 = Debug|Win32
+		{0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}.Release.ActiveCfg = Release|Win32
+		{0BB0671C-4B2B-4B9D-8ECE-4875DEE538D5}.Release.Build.0 = Release|Win32
+		{FADDBF0B-4A36-4A21-9C85-766385875144}.Debug.ActiveCfg = Debug|Win32
+		{FADDBF0B-4A36-4A21-9C85-766385875144}.Debug.Build.0 = Debug|Win32
+		{FADDBF0B-4A36-4A21-9C85-766385875144}.Release.ActiveCfg = Release|Win32
+		{FADDBF0B-4A36-4A21-9C85-766385875144}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
